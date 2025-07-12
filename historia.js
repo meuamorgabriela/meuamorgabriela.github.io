@@ -29,7 +29,7 @@ const imagens = [
   "8.jpg",
   "9.JPG",
   "10.JPG",
-  "11.JPG",
+  "11.jpg",
   "12.png",
 ];
 
