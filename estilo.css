@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  background: linear-gradient(#fff0f5, #ffe4e1);
+  font-family: 'Georgia', serif;
+  text-align: center;
+  color: #4b2e2e;
+  cursor: pointer;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.caixa {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  border-radius: 30px;
+  max-width: 700px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/*.caixa {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  border-radius: 30px;
+  width: auto;
+  max-width: 90vw;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}*/
+
+h1 {
+  color: #c71585;
+  font-size: 18pt;
+  margin-bottom: 20px;
+}
+
+/*.foto {
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+}*/
+
+.foto {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain; /* mantem a imagem dentro sem cortar */
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+}
+
+
+.mensagem {
+  font-size: 1.2em;
+  line-height: 1.6;
+  padding: 15px;
+  color: #4b2e2e;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #777;
+}
+
+.progresso {
+  margin-top: 15px;
+  font-size: 1.5em;
+  color: #c71585;
+  letter-spacing: 3px;
+  transition: all 0.3s ease;
+}
